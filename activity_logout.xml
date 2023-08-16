@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logout">
+
+    <TextView
+
+        android:id="@+id/logout"
+        android:layout_width="394dp"
+        android:layout_height="136dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Log Out"
+        android:textColor="@android:color/black"
+        android:textSize="80dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="181dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/logout"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text=" Log Out "
+        android:textColor="#FFFEFE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+
+</RelativeLayout>

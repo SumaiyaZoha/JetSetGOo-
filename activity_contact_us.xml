@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact_Us">
+
+    <TextView
+
+        android:id="@+id/contactus"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Who We Are !"
+        android:textColor="#007fff"
+        android:textSize="55dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="5dp" />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/contactus"
+        android:layout_marginTop="1dp"
+        android:background="#007fff" />
+
+    <TextView
+
+        android:id="@+id/textoo"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:layout_below="@+id/contactus"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="The JetSetGo! is a user-friendly Android application that simplifies the process of booking flights. Users can easily search for flights based on their travel preferences such as destination, date, and passenger count. The app presents a comprehensive list of available flights, allowing users to compare options based on flight details and select the most suitable one. Once a flight is chosen, users can securely book their tickets, provide passenger information, and make payments. With its intuitive interface and streamlined functionality, the Airline Ticket Booking App aims to provide a seamless and convenient experience for users to book their flights with ease. "
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+
+</RelativeLayout>
