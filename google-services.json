@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519933117383",
+    "project_id": "jetsetgoo",
+    "storage_bucket": "jetsetgoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519933117383:android:542b13f529bab63071cfe2",
+        "android_client_info": {
+          "package_name": "com.example.jetsetgoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519933117383-tg55te28gpq8tvoea10l7cu5th3tb748.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyCseUe7YrzNNPb2Cn_kCMdKxbsvGbz7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519933117383-tg55te28gpq8tvoea10l7cu5th3tb748.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
